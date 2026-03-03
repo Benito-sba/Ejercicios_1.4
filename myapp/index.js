@@ -11,12 +11,12 @@ app.get("/", (req, res) => {
     res.send("<h1>Bienvenido a mi página web</h1>");
 });
 
-app.get('/saludo', (req, res) => {
+app.get('/about', (req, res) => {
   res.send('Balam endpoint /saludo');
 });
 
-app.get('/usuario', (req, res) => {
-  res.json({ nombre: 'Santiago', carrera: 'ISC' });
+app.get("/contac", (req, res) => {
+    res.send("<h1>9835565488774554455212</h1>");
 });
 
 app.listen(port, () => {
